@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		7243F53D283E1A8E00CA7090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F53C283E1A8E00CA7090 /* AppDelegate.swift */; };
 		7243F53F283E1A8E00CA7090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F53E283E1A8E00CA7090 /* SceneDelegate.swift */; };
-		7243F541283E1A8E00CA7090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F540283E1A8E00CA7090 /* ViewController.swift */; };
-		7243F544283E1A8E00CA7090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7243F542283E1A8E00CA7090 /* Main.storyboard */; };
+		7243F541283E1A8E00CA7090 /* MemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F540283E1A8E00CA7090 /* MemesViewController.swift */; };
 		7243F546283E1A9700CA7090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7243F545283E1A9700CA7090 /* Assets.xcassets */; };
 		7243F549283E1A9700CA7090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7243F547283E1A9700CA7090 /* LaunchScreen.storyboard */; };
+		7243F554283E1B9700CA7090 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F553283E1B9700CA7090 /* DetailViewController.swift */; };
+		7243F556283E1BA600CA7090 /* MemesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F555283E1BA600CA7090 /* MemesViewModel.swift */; };
+		7243F558283E1BB200CA7090 /* MemesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F557283E1BB200CA7090 /* MemesModel.swift */; };
+		7243F55A283E1BC200CA7090 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F559283E1BC200CA7090 /* APIManager.swift */; };
+		7243F55C283E1BE800CA7090 /* MemesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F55B283E1BE800CA7090 /* MemesProtocols.swift */; };
+		7243F55E283E1BFA00CA7090 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F55D283E1BFA00CA7090 /* DetailViewModel.swift */; };
+		7243F560283E1C0C00CA7090 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F55F283E1C0B00CA7090 /* DetailModel.swift */; };
+		7243F562283E1C1B00CA7090 /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243F561283E1C1B00CA7090 /* DetailProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7243F539283E1A8E00CA7090 /* MemesMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemesMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7243F53C283E1A8E00CA7090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7243F53E283E1A8E00CA7090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7243F540283E1A8E00CA7090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7243F543283E1A8E00CA7090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7243F540283E1A8E00CA7090 /* MemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesViewController.swift; sourceTree = "<group>"; };
 		7243F545283E1A9700CA7090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7243F548283E1A9700CA7090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7243F54A283E1A9700CA7090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7243F553283E1B9700CA7090 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7243F555283E1BA600CA7090 /* MemesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesViewModel.swift; sourceTree = "<group>"; };
+		7243F557283E1BB200CA7090 /* MemesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesModel.swift; sourceTree = "<group>"; };
+		7243F559283E1BC200CA7090 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		7243F55B283E1BE800CA7090 /* MemesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemesProtocols.swift; sourceTree = "<group>"; };
+		7243F55D283E1BFA00CA7090 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		7243F55F283E1C0B00CA7090 /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		7243F561283E1C1B00CA7090 /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		7243F53B283E1A8E00CA7090 /* MemesMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				7243F53C283E1A8E00CA7090 /* AppDelegate.swift */,
-				7243F53E283E1A8E00CA7090 /* SceneDelegate.swift */,
-				7243F540283E1A8E00CA7090 /* ViewController.swift */,
-				7243F542283E1A8E00CA7090 /* Main.storyboard */,
-				7243F545283E1A9700CA7090 /* Assets.xcassets */,
-				7243F547283E1A9700CA7090 /* LaunchScreen.storyboard */,
+				7243F552283E1B6800CA7090 /* DetailScreen */,
+				7243F551283E1B5500CA7090 /* CVScreen */,
+				7243F550283E1B4200CA7090 /* Common */,
 				7243F54A283E1A9700CA7090 /* Info.plist */,
 			);
 			path = MemesMVVM;
+			sourceTree = "<group>";
+		};
+		7243F550283E1B4200CA7090 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7243F545283E1A9700CA7090 /* Assets.xcassets */,
+				7243F547283E1A9700CA7090 /* LaunchScreen.storyboard */,
+				7243F53C283E1A8E00CA7090 /* AppDelegate.swift */,
+				7243F53E283E1A8E00CA7090 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7243F551283E1B5500CA7090 /* CVScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7243F540283E1A8E00CA7090 /* MemesViewController.swift */,
+				7243F555283E1BA600CA7090 /* MemesViewModel.swift */,
+				7243F557283E1BB200CA7090 /* MemesModel.swift */,
+				7243F559283E1BC200CA7090 /* APIManager.swift */,
+				7243F55B283E1BE800CA7090 /* MemesProtocols.swift */,
+			);
+			path = CVScreen;
+			sourceTree = "<group>";
+		};
+		7243F552283E1B6800CA7090 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7243F553283E1B9700CA7090 /* DetailViewController.swift */,
+				7243F55D283E1BFA00CA7090 /* DetailViewModel.swift */,
+				7243F55F283E1C0B00CA7090 /* DetailModel.swift */,
+				7243F561283E1C1B00CA7090 /* DetailProtocols.swift */,
+			);
+			path = DetailScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +172,6 @@
 			files = (
 				7243F549283E1A9700CA7090 /* LaunchScreen.storyboard in Resources */,
 				7243F546283E1A9700CA7090 /* Assets.xcassets in Resources */,
-				7243F544283E1A8E00CA7090 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +182,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7243F541283E1A8E00CA7090 /* ViewController.swift in Sources */,
+				7243F541283E1A8E00CA7090 /* MemesViewController.swift in Sources */,
+				7243F562283E1C1B00CA7090 /* DetailProtocols.swift in Sources */,
 				7243F53D283E1A8E00CA7090 /* AppDelegate.swift in Sources */,
+				7243F556283E1BA600CA7090 /* MemesViewModel.swift in Sources */,
+				7243F55C283E1BE800CA7090 /* MemesProtocols.swift in Sources */,
+				7243F55E283E1BFA00CA7090 /* DetailViewModel.swift in Sources */,
+				7243F558283E1BB200CA7090 /* MemesModel.swift in Sources */,
+				7243F560283E1C0C00CA7090 /* DetailModel.swift in Sources */,
 				7243F53F283E1A8E00CA7090 /* SceneDelegate.swift in Sources */,
+				7243F554283E1B9700CA7090 /* DetailViewController.swift in Sources */,
+				7243F55A283E1BC200CA7090 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7243F542283E1A8E00CA7090 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7243F543283E1A8E00CA7090 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7243F547283E1A9700CA7090 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +338,6 @@
 				INFOPLIST_FILE = MemesMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +365,6 @@
 				INFOPLIST_FILE = MemesMVVM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
