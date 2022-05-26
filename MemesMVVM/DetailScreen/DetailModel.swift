@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct SingleMeme {
+    let name: String
+    let url: String
+}
